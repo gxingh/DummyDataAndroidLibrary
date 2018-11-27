@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         list = new ArrayList<>();
-        list = DummyData.getListString(10);
+        list = DummyData.getListString(20);
 
         recycler = findViewById(R.id.recycler);
         RecyclerAdapter adapter = new RecyclerAdapter(list);
